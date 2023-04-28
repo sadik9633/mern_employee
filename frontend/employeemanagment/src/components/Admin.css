@@ -1,0 +1,26 @@
+h1{
+    text-align:center;
+    color: aqua;
+    overflow-y: hidden;
+
+}
+h1::-webkit-scrollbar{
+    display: none;
+    overflow-y: hidden;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    color: rgb(143, 143, 160);
+    font-size: larger;
+    transition: 1s ease-in-out;
+
+}
+p:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
